@@ -1,6 +1,6 @@
 class Knight
     include Stepable
-    @@symbol = :H
+    @@symbol = :Kn
 
     def move_diffs
         @move_diffs = [

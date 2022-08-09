@@ -14,6 +14,10 @@ class Piece
         @valid_moves = []
     end
 
+    def moves
+        #return moves
+    end
+
     def empty?
     
     end
