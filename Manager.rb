@@ -35,6 +35,3 @@ class Manager < Employee
     
     
 end
-ned.bonus(5) # => 500_000
-darren.bonus(4) # => 88_000
-david.bonus(3) # => 30_000
