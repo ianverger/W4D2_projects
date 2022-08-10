@@ -20,9 +20,9 @@ def [](pos)
     @grid[row][col]
 end
 
-def []=(pos, val)
+def []=(pos, piece)
     row, col = pos
-    @grid[row][col] = val
+    @grid[row][col] = piece
 end
 
 def move_piece(start_pos, end_pos)

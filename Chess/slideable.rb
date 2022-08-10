@@ -1,22 +1,16 @@
 module Slideable
 
-    private
-    HORIZONTAL_DIRS = []
+    HORIZONTAL_AND_VERTICAL_DIRS = []
+
     DIAGONAL_DIRS = []
 
-    public
 
-    def horizonal_dirs
-        @grid.each do |row|
-            rows.each do |col|
-
-            end
-        end
+    def horizonal_and_vertical_dirs
+        HORIZONTAL_AND_VERTICAL_DIRS
     end
 
     def diagonal_dirs 
-
-
+        DIAGONAL_DIRS
     end
 
     def moves 
@@ -34,6 +28,7 @@ module Slideable
         pos_moves
     end
 
+    private
     def move_dirs 
 
     end

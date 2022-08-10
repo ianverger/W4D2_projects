@@ -1,5 +1,5 @@
-class Bishop
-    require Slideable
+class Bishop < Piece
+    include Slideable
     @@symbol = :B 
 
     def move_dirs

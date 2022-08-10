@@ -1,4 +1,4 @@
-class Queen
+class Queen < Piece
     include Slideable
     @@symbol = :Q 
 

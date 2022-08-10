@@ -1,5 +1,5 @@
-class Rook
-    require Slideable
+class Rook < Piece
+    include Slideable
     @@symbol = :R
 
     def move_dirs

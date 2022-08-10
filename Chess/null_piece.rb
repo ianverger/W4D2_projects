@@ -1,4 +1,4 @@
-class NullPiece
+class NullPiece < Piece
     @@symbol = :NP
 
     def initialize
@@ -6,6 +6,6 @@ class NullPiece
     end
 
     def moves
-        
+
     end
 end
